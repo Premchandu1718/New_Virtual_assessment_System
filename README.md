@@ -22,12 +22,11 @@ The **Online Assessment Test Portal** is a full-featured web application built u
 - Receive personalized quiz recommendations based on past performance.
 
 ## Technology Stack
-- **Frontend:** React, Redux, Bootstrap, Axios
+- **Frontend:** React, Redux,React Hooks,Bootstrap, Axios
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JWT-based authentication
 - **State Management:** Redux Toolkit
-- **Real-Time Updates:** WebSockets for real-time score updates
 - **Deployment:** Heroku, Vercel
 
 ## How to Run the Project
