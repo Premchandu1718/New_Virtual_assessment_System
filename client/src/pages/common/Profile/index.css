@@ -1,0 +1,116 @@
+/* Overall container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+}
+
+/* Profile card */
+.profile-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 80%; /* Card width relative to screen size */
+    max-width: 1000px;
+    margin: 20px;
+}
+
+/* Profile info */
+.profile-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.profile-info h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.profile-info a {
+    font-size: 1.1rem;
+    color: #3f51b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-info .account-info {
+    font-size: 1.1rem;
+    color: #777;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 280px;  /* Increased image size */
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .profile-info {
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .profile-pic {
+        width: 150px;  /* Adjusted size for medium screens */
+        height: 150px;
+    }
+
+    .profile-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .profile-info p,
+    .profile-info a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .profile-pic {
+        width: 120px;  /* Adjusted size for small screens */
+        height: 120px;
+    }
+
+    .profile-info h2 {
+        font-size: 1.5rem;
+    }
+
+    .profile-info p,
+    .profile-info a {
+        font-size: 0.9rem;
+    }
+}

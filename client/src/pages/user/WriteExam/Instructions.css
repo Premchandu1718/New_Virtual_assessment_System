@@ -1,0 +1,72 @@
+/* Instructions Container */
+.instructions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+  }
+  
+  /* Instructions Title */
+  .instructions-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    color: #1a73e8;
+  }
+  
+  /* Instructions List */
+  .instructions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Bold Text */
+  .bold-text {
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  /* Buttons Container */
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Close Button */
+  .close-btn {
+    background: transparent;
+    border: 2px solid #d9534f;
+    color: #d9534f;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .close-btn:hover {
+    background: #d9534f;
+    color: white;
+  }
+  
+  /* Start Button */
+  .start-btn {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .start-btn:hover {
+    background: #1558b3;
+  }
+  

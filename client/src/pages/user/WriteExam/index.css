@@ -1,0 +1,40 @@
+.lottie-animation {
+    width: 100px !important;
+    height: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.button1{
+  cursor: pointer;
+}
+
+.marksCard{
+  width: 100% !important;
+}
+
+
+.span1{
+  color: rgb(9, 4, 14);
+  font-weight: bold;
+  padding: 1%;
+}
+
+  @media (min-width: 640px) {
+    .lottie-animation {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .lottie-animation {
+      width: 100px !important;
+      height: 100px !important;
+    }
+  }
+  
+  
+
+  
