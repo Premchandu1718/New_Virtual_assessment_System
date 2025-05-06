@@ -34,7 +34,7 @@ The **Virtual Assessment System** is a full-featured web application built using
 
 ### Clone the Repository:
 ```sh
-git clone https://github.com/PUJARI-SAIBALAJI/SAI_AT_PORTAL.git
+git clone  https://github.com/Premchandu1718/New_Virtual_assessment_System.git
 cd Virtaul_Assessment_System
 ```
 
