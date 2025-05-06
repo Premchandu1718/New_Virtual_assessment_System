@@ -34,7 +34,7 @@ function Login() {
     <div className="login-container">
       {/* Top Header */}
       <div className="header1">
-        <h1>Welcome to the Online AT Portal</h1>
+        <h1>Welcome to the Virtual Assessment System</h1>
         <p>
           AT Portal is a comprehensive platform designed to help you develop
           your skills through assessments, AI evaluations, and real-time

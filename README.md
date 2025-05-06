@@ -1,7 +1,7 @@
-# Online Assessment Test Portal
+# Virtual Assessment System
 
 ## Overview
-The **Online Assessment Test Portal** is a full-featured web application built using the **MERN Stack**, enabling admins to manage quizzes and users to attempt assessments efficiently. The application is fully responsive and includes features like detailed reports, profile management, and real-time performance tracking.
+The **Virtual Assessment System** is a full-featured web application built using the **MERN Stack**, enabling admins to manage quizzes and users to attempt assessments efficiently. The application is fully responsive and includes features like detailed reports, profile management, and real-time performance tracking.
 
 ## Key Features
 
@@ -35,7 +35,7 @@ The **Online Assessment Test Portal** is a full-featured web application built u
 ### Clone the Repository:
 ```sh
 git clone https://github.com/PUJARI-SAIBALAJI/SAI_AT_PORTAL.git
-cd SAI_AT_PORTAL
+cd Virtaul_Assessment_System
 ```
 
 ### Install Dependencies:
@@ -62,4 +62,4 @@ npm run dev
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
 ## Contact
-For any inquiries, reach out via GitHub issues or email at **saibalajipujari@gmail.com**.
+For any inquiries, reach out via GitHub issues or email at **www.ramajipremchandu@gmail.com**.

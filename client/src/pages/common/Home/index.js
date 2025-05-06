@@ -36,7 +36,7 @@ function Home() {
   return (
     user && (
       <div className="home-container">
-        <PageTitle title={`Hi ${user.name}, Welcome to SAI AT PORTAL`} />
+        <PageTitle title={`Hi ${user.name}, Welcome to Virtual Assessement System`} />
         <div className="divider"></div>
         <Row gutter={[16, 16]}>
           {exams.map((exam) => (
